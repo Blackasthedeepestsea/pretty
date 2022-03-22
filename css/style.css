@@ -120,10 +120,16 @@ justify-self: flex-end;
     right: 0;
     left:0;
     background:white;
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+    transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    -moz-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+}
+
+/*stats*/
+
+.stats {
+    padding-top: 100px;
 }
 /*utilities*/
 
@@ -171,9 +177,13 @@ justify-self: flex-end;
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
     align-items:center;
     height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
 }
