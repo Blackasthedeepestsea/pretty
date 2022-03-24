@@ -40,8 +40,15 @@
     color:white;
 }
 
+
 .bg-dark,
 .btn-dark {
+    background-color: var(--dark-color);
+    color:white;
+}
+
+.bg-dark a,
+.btn-dark a {
     background-color: var(--dark-color);
     color:white;
 }
@@ -80,6 +87,27 @@
 
 .text-center {
     text-align: center;
+}
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+
+    background-color: rgb(187, 212, 233);
+    
+}
+
+.alert-error {
+    background-color: rgb(233, 230, 187);
 }
 
 .flex {
@@ -186,17 +214,3 @@ padding: 4rem 0 ;
     padding: 4rem;
 }
 
-.cli .grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.cli .grid > *:first-child {
-    grid-column: 1/ span 2;
-    grid-row: 1 / span 2;
-}
-
-/*cloud*/ 
-.cloud .grid {
-    grid-template-columns: 4fr 3fr;
-}
