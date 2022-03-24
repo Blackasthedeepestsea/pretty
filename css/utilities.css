@@ -33,6 +33,51 @@
     transform: scale(.98);
 }
 
+/*backgrounds and colored buttons*/
+.bg-primary,
+.btn-primary {
+    background-color: rgb(179, 147, 206);
+    color:white;
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-color);
+    color:white;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color:white;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color:white;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
 .text-center {
     text-align: center;
 }
@@ -139,4 +184,19 @@ padding: 4rem 0 ;
 
 .p-5 {
     padding: 4rem;
+}
+
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid > *:first-child {
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 2;
+}
+
+/*cloud*/ 
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
 }
