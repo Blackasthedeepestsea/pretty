@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@100&family=Righteous&display=swap');
 /*below css custom property*/
 :root {
     --primary-color: rgb(38, 182, 192);
     --secondary-color: rgb(16, 205, 212);
     --dark-color: rgb(48, 17, 88);
     --light-color: rgb(237, 203, 240);
+    --detailfont: 12px;
+    --regfont: 12px * 1.618px;
+    --headingfont: 12px * 1.1618 * 1.618px;
+
 }
 
 * {
@@ -15,7 +19,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', Times, serif;
     color: #333;
     line-height: 1.6;
 }
@@ -29,7 +33,12 @@ a{
     color: #333;
 }
 
-h1, h2 {
+h1 {
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
@@ -37,6 +46,11 @@ h1, h2 {
 
 p {
     margin: 10px 0;
+    font-size: 12 * 1.618px;
+    font-weight: 900;
+    color:rgb(244, 198, 189);
+    font-family: 'Poppins', Times, serif;
+
 }
 
 .beach {
@@ -66,11 +80,20 @@ img {
     opacity: .9;
 }
 
+.bgimage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, .9)), url("../images/treebg.jpg");
+  height: 100vh;
+  background-size: cover;
+
+}
+
 /*navbar*/
 .navbar {
-    background-color: var(--primary-color);
+    opacity: 1;
     color: rgb(241, 241, 231);
     height: 70px;
+    padding-top: 8px;
+   
 }
 
 .navbar ul {
@@ -81,10 +104,13 @@ img {
     color: white;
     padding: 10px;
     margin: 0 5px;
+    
 }
 
 .navbar a:hover {
-    border-bottom: 2px white solid;
+    background-color: black;
+    box-shadow:  0px 2px 11px 10px rgba(231, 112, 52, 0.779);
+    border-radius: 10px;
 }
 .navbar .flex{
     justify-content: space-between;
@@ -94,7 +120,6 @@ img {
 
 .showcase {
     height: 400px;
-    background-color: var(--primary-color) ;
     color:white;
     position: relative;
 }
@@ -383,8 +408,7 @@ animation: slideInFromRight 1s ease-in;
 /* Mobile */
 @media (max-width: 500px) {
     .navbar {
-      height: 110px;
-      font-size: 11px;
+      font-size: 12px;
     }
   
     .navbar .flex {
@@ -399,4 +423,6 @@ animation: slideInFromRight 1s ease-in;
     .showcase-form {
       width: 300px;
     }
+
+    
   }

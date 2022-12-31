@@ -25,8 +25,10 @@
 }
 
 .btn-outline {
-    background-color: transparent;
-    border: 1px white solid;
+    border: 1px rgba(231, 112, 52,) solid;
+    background: rgba(255, 255, 255, .1);
+    color: white;
+    box-shadow:  0px 2px 11px 10px rgba(221, 141, 100, 0.779);
 }
 
 .btn:hover {
