@@ -7,11 +7,13 @@
 }
 
 .card {
-    background-color: white;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.226);
     padding: 20px;
     margin: 10px;
+    justify-content: center;
+    align-items:center;
+    
 }
 
 .btn {
@@ -21,14 +23,15 @@
     background: var(--primary-color);
     color: white;
     border: none;
+    align-items: center;
     border-radius: 5px;
 }
 
 .btn-outline {
     border: 1px rgba(231, 112, 52,) solid;
-    background: rgba(255, 255, 255, .1);
+    background: rgba(0,0,0,.5);
     color: white;
-    box-shadow:  0px 2px 11px 10px rgba(221, 141, 100, 0.779);
+    box-shadow:  0px 2px 11px 10px rgba(241, 117, 55, 0.779);
 }
 
 .btn:hover {
