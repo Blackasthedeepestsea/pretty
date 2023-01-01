@@ -42,20 +42,37 @@ h1 {
 h2 {
     font-weight: 300;
     line-height: 1.2;
-    letter-spacing: 2;
+    letter-spacing: 4;
     margin: 10px 0;
     font-family: 'Poppins';
     background-color: rgba(0, 0, 0, .6);
     padding: 5px;
     border-radius: 30px;
 }
-
+ .modh2 {
+    color:aquamarine;
+ }
 p {
     font-size: 12 * 1.618px;
-    font-weight: 900;
     color:rgb(70, 232, 132);
     font-family: 'Poppins', Times, serif;
     border-radius: 30px;
+    letter-spacing: 4;
+}
+
+.particle {
+  font-size: 12 * 1.618px;
+  color:rgba(83, 239, 236);
+  font-family: 'Poppins', Times, serif;
+  border-radius: 30px;
+  letter-spacing: 2;
+}
+
+.particletip {
+  font-size: 15 * 1.618px;
+  color:rgb(224, 244, 243);
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 30px;
 }
 
 .beach {
@@ -77,6 +94,13 @@ code, pre {
 img {
     width:90%;
     height: 70%;
+    border: 5px black solid;
+    margin-bottom: 10px;
+}
+.imgborder1 {
+  width:90%;
+  height: 70%;
+  border: 4px rgb(70, 232, 132) solid;
 }
 
 .waves {
@@ -84,6 +108,8 @@ img {
     height: 200px;
     opacity: .9;
 }
+
+
 
 .bgimage {
   background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4), rgba(0, 0, 0, .9)), url("../images/treebg.jpg");
@@ -237,8 +263,8 @@ animation: slideInFromBottom 1s ease-in;
 
 /* features */
 .features-head img {
-    width:400px;
-    height:400px;
+  width:400px;
+  height: 400px;
     justify-self: flex-end;
 }
 

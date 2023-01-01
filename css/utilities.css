@@ -3,7 +3,7 @@
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
-
+color: white;
 }
 
 .card {
@@ -40,6 +40,14 @@
     color: white;
     box-shadow:  0px 2px 11px 10px rgba(83, 239, 236, 0.779);
 }
+.btn-outlinenavarticle{
+    border: 1px rgba(231, 112, 52,) solid;
+    background: rgba(0,0,0,.5);
+    color: white;
+    box-shadow:  0px 2px 11px 10px rgba(83, 228, 239, 0.779);
+    font-size: 12px;
+}
+
 
 .btn:hover {
     transform: scale(.98);
@@ -124,9 +132,12 @@
 
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+    margin: 10px;
+    gap: 10px;
+    padding: 20px;
 }
 
 .grid {
