@@ -86,7 +86,7 @@ img {
 }
 
 .bgimage {
-  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4), rgba(0, 0, 0, .6)), url("../images/treebg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4), rgba(0, 0, 0, .9)), url("../images/treebg.jpg");
   height: 100vh;
   background-size: contain;
 

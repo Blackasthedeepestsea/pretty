@@ -13,6 +13,7 @@
     margin: 10px;
     justify-content: center;
     align-items:center;
+    color: rgb(83, 228, 239);
     
 }
 
@@ -32,6 +33,12 @@
     background: rgba(0,0,0,.5);
     color: white;
     box-shadow:  0px 2px 11px 10px rgba(241, 117, 55, 0.779);
+}
+.btn-outlineform {
+    border: 1px rgba(231, 112, 52,) solid;
+    background: rgba(0,0,0,.5);
+    color: white;
+    box-shadow:  0px 2px 11px 10px rgba(83, 239, 236, 0.779);
 }
 
 .btn:hover {
