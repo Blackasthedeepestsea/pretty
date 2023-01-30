@@ -5,7 +5,7 @@
     --primary: #ddd;
     --dark: #333;
     --light: #fff;
-    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --shadow: 0 1px 5px rgba(209, 193, 44, 0.8);
   }
   
   html {
@@ -22,12 +22,17 @@
   }
 
   p {
-    font-size: 12 * 1.618px;
-    color:rgb(70, 232, 132);
+    font-size: 13 * 1.618px;
+    color:rgb(38, 182, 192);
     font-family: 'Poppins', Times, serif;
     border-radius: 30px;
     letter-spacing: 4;
 }
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+  }
   
 h4 {
     color: white;
@@ -39,17 +44,42 @@ h4 {
     cursor: pointer;
     align-items: center;
     border-radius: 5px;    
-    border: 1px rgba(231, 112, 52,) solid;
+    border: 1px rgb(87, 231, 47) solid;
     background: rgba(0,0,0,.5);
     color: white;
-    box-shadow:  0px 2px 11px 10px rgba(241, 117, 55, 0.779);
+    box-shadow:  0px 2px 11px 10px rgba(83, 239, 236, 0.779);
     margin: 8px;
+    text-decoration: none;
   }
   
+  .btnform {
+    border: 1px rgb(52, 231, 64) solid;
+    background: rgba(0,0,0,.5);
+    color: white;
+    box-shadow:  0px 2px 11px 10px rgba(83, 239, 236, 0.779);
+    text-decoration: none;
+}
+.btnmain {
+    display: inline-block;
+    padding:10px 30px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;    
+    border: 1px rgb(239, 166, 83) solid;
+    background: rgba(0,0,0,.5);
+    color: white;
+    box-shadow:  0px 2px 11px 10px rgba(70, 232, 132,0.779);
+    margin: 8px;
+    text-decoration: none;
+  }
+
+
+
   img {
     max-width: 100%;
     margin: 10px;
     border: solid 2px white;
+    width: 200px;
   }
   
   .wrapper {
@@ -96,7 +126,7 @@ h4 {
   .showcase {
     grid-area: showcase;
     min-height: 400px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.112), rgba(0, 0, 0, .4), rgba(0, 0, 0, .9)), url("../images/treebg.jpg");
     padding: 3rem;
@@ -155,14 +185,22 @@ h4 {
     box-shadow: var(--shadow);
   }
   
+  .forminput {
+    margin: 10px;
+    padding: 10px;
+  }
   /* Info */
   .info {
+    color: white;
     background: var(--primary);
     box-shadow: var(--shadow);
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.306), rgba(0, 0, 0, .4)), url("../images/sopretty.jpg");
   }
   
   /* Portfolio */
