@@ -5,7 +5,7 @@
     --primary: #ddd;
     --dark: #333;
     --light: #fff;
-    --shadow: 0 1px 5px rgba(209, 193, 44, 0.8);
+    --shadow: 0 1px 5px rgba(47, 44, 209, 0.8);
   }
   
   html {
@@ -23,7 +23,7 @@
 
   p {
     font-size: 13 * 1.618px;
-    color:rgb(38, 182, 192);
+    color:rgb(19, 242, 223);
     font-family: 'Poppins', Times, serif;
     border-radius: 30px;
     letter-spacing: 4;
@@ -44,16 +44,15 @@ h4 {
     cursor: pointer;
     align-items: center;
     border-radius: 5px;    
-    border: 1px rgb(87, 231, 47) solid;
     background: rgba(0,0,0,.5);
     color: white;
-    box-shadow:  0px 2px 11px 10px rgba(83, 239, 236, 0.779);
+    box-shadow:  0px 2px 11px 10px rgba(10, 52, 160, 0.779);
     margin: 8px;
     text-decoration: none;
+    border: 1px rgb(83, 114, 239) solid;
   }
   
   .btnform {
-    border: 1px rgb(52, 231, 64) solid;
     background: rgba(0,0,0,.5);
     color: white;
     box-shadow:  0px 2px 11px 10px rgba(83, 239, 236, 0.779);
@@ -65,10 +64,10 @@ h4 {
     cursor: pointer;
     align-items: center;
     border-radius: 5px;    
-    border: 1px rgb(239, 166, 83) solid;
+  
     background: rgba(0,0,0,.5);
     color: white;
-    box-shadow:  0px 2px 11px 10px rgba(70, 232, 132,0.779);
+    box-shadow:  0px 2px 11px 10px rgba(39, 167, 88, 0.779);
     margin: 8px;
     text-decoration: none;
   }
@@ -200,20 +199,10 @@ h4 {
     padding: 3rem;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.306), rgba(0, 0, 0, .4)), url("../images/sopretty.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/waterfull.jpg");
   }
   
-  /* Portfolio */
-  .portfolio {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-  
-  .portfolio img {
-    width: 100%;
-    box-shadow: var(--shadow);
-  }
+
   
   /* Footer */
   footer {
