@@ -108,34 +108,20 @@ h4 {
   
   .main-nav a {
     display: block;
+    float:left;
     text-decoration: none;
     padding: 1rem;
     text-align: center;
     font-size: 1rem;
     background-color: black;
-    box-shadow:  0px 2px 11px 10px rgba(52, 231, 147, 0.779);
-    border-radius: 10px;
     color: white;
     margin: 14px;
   }
   
-  .main-nav a {
-    display: block;
-    float: left;
-    text-decoration: none;
-    padding: 1rem;
-    text-align: center;
-    font-size: 1rem;
-    background-color: black;
-    box-shadow:  0px 2px 11px 10px rgba(52, 231, 147, 0.779);
-    border-radius: 10px;
-    color: white;
-    margin: 14px;
-  }
+ 
 
   .main-nav a:hover {
-    background-color: black;
-    box-shadow:  0px 2px 11px 10px rgba(177, 231, 52, 0.779);
+    background-color: rgb(11, 7, 69);
     border-radius: 10px;
     color: white;
   }
@@ -143,6 +129,7 @@ h4 {
   .main-nav a.active {
    color:rgb(255, 255, 255);
    box-shadow:  0px 2px 11px 10px rgba(70, 52, 231, 0.779);
+   border-radius: 10px;
   }
 
   .main-nav .icon {
@@ -296,10 +283,21 @@ h4 {
       right: 0;
       top: 0;
     }
+    .main-nav.responsive a:hover {
+      color: white;
+      background-color: black;
+    }
     .main-nav.responsive a {
       float: none;
       display: block;
       text-align: center;
      }
+     .main-nav.responsive #logo {
+      float: none;
+      display: block;
+      text-align: center;
+      width: 65%;
+     }
+     
   }
   
