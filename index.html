@@ -12,8 +12,20 @@
 
 <div class="wrapper">
     <!-- Navigation -->
+    <div id="myTopnav"class="main-nav">
 
+          <a class="active" href="index.html">Crawl Out of Hell</a>
 
+          <a href="feature.html">Articles</a>
+  
+          <a  href="labeling.html">Games</a>
+    
+          <a  href="waterfull.jpg">Field of Memes</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+    </div>
+
+    
     <!-- Top Container -->
     <section class="top-container">
       <header class="showcase">
@@ -24,7 +36,7 @@
       <div class="top-box top-box-a">
         <p>How Labeling Yourself and Others Can Hurt</p>
         <img src="/images/bj.jpg" alt="">
-        <a href="" class="btn">Read</a>
+        <a href="/labeling.html" class="btn">Read</a>
       </div>
       <div class="top-box top-box-b">
         <p>How Cleaning Can Help Shame</p>
@@ -95,27 +107,26 @@
       </div>
     </section>
 
-  
+
 
     <!-- Footer -->
-    <nav class="main-nav">
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
+ 
 
-  </div>
+
+  
+
   <!-- Wrapper Ends -->
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "main-nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "main-nav";
+    }
+  }
+  </script> 
+
 </body>
 </html>
