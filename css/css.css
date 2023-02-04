@@ -12,7 +12,8 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark);
-    font-size: 1em;
+    font-size: .75em;
+    letter-spacing: 1px;
   }
   
   body {
@@ -46,7 +47,7 @@ ul {
 .articlesubheading {
   font-size: 2em;
   color:rgb(24, 186, 205);
-  font-family: 'Times New Roman';
+  font-family: 'Poppins';
   font-weight: 'bold';
 }
 .hidden {
@@ -67,11 +68,11 @@ h4 {
     background: rgba(0,0,0,.5);
     color: white;
     font-weight: 'bold';
-    box-shadow:  0px 2px 11px 10px rgba(10, 52, 160, 0.779);
+    box-shadow:  0px 2px 11px 10px rgba(15, 72, 216, 0.779);
     margin: 8px;
     text-decoration: none;
     text-align: center;
-    border: 1px rgb(83, 114, 239) solid;
+   
   }
   .glow {
     box-shadow:  0px 2px 2px 2px rgba(238, 234, 225, 0.904);
@@ -280,6 +281,18 @@ h4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/waterfull.jpg");
   }
   
+ .articlesignupform {
+  color: white;
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/starstar.jpg");
+}
 
   
   /* Footer */
