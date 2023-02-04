@@ -18,7 +18,7 @@
   
   body {
     background: rgb(0, 0, 0);
-    margin: 30px 50px;
+    margin: 10px 40px;
     line-height: 1.4;
     font-family: 'Poppins', Times, serif;
     letter-spacing: 1px;
@@ -68,7 +68,7 @@ h4 {
     background: rgba(0,0,0,.5);
     color: white;
     font-weight: 'bold';
-    box-shadow:  0px 2px 11px 10px rgba(15, 72, 216, 0.779);
+    box-shadow:  0px 2px 11px 10px rgba(39, 167, 148, 0.779);
     margin: 8px;
     text-decoration: none;
     text-align: center;
@@ -117,7 +117,7 @@ h4 {
   
   .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
   
   /* Navigation */
@@ -291,7 +291,7 @@ h4 {
   padding: 3rem;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/starstar.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/blue.png");
 }
 
   
