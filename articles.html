@@ -13,20 +13,36 @@
 <div class="wrapper">
     <!-- Navigation -->
   
-
+    <div class="centernav">
+      <div id="myTopnav"class="main-nav">
+       
+            <a class="active" id="logo" href="index.html">Crawl Out of Hell</a>
+          
+  
+            <a href="comingsoon.html">Articles</a>
+    
+           
+      
+           
+            <a  href="https://www.youtube.com/channel/UCMw3FUnBXkOUCkAhKenC6xg">YouTube <i class="fa-brands fa-youtube"></i></a>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
+              
+      </div>
+    </div>
     <!-- Top Container -->
     <section class="top-container">
-      <header class="showcase">
+      <header class="showcasearticle">
         <h1>Articles</h1>
         <p>To help stop psychic wounds from bleeding, turn scabs to scars, and love your scarred self.</p>
         <a href="#" class="btn">Read More</a>
       </header>
       <div class="top-box top-box-a">
-        <p class="price">By Topic</p>
-        <a href="" class="btn">Buy Now</a>
-        <a href="" class="btn">Buy Now</a>
-        <a href="" class="btn">Buy Now</a>
-        <a href="" class="btn">Buy Now</a>
+        <p class="price">Topic</p>
+        <img src="/images/angry.jpg" alt="">
+        <a href="angerarticles.html" class="btn">Anger / Rage</a>
+     
       </div>
       <div class="top-box top-box-b">
         <h4>Pro Membership</h4>
@@ -90,6 +106,16 @@
 
   </div>
   <!-- Wrapper Ends -->
-
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "main-nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "main-nav";
+      }
+    }
+    </script> 
+  
 </body>
 </html>

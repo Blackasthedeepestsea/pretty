@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark);
-    font-size: .75em;
+    font-size: .9em;
     letter-spacing: 1px;
   }
   
@@ -20,33 +20,38 @@
     background: rgb(0, 0, 0);
     margin: 10px 40px;
     line-height: 1.4;
-    font-family: 'Poppins', Times, serif;
+    font-family: 'Poppins', Times, sans-serif;
     letter-spacing: 1px;
   }
 
   p {
     font-size: 1.75em;
     color:rgb(135, 236, 231);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', Times, sans-serif;
     border-radius: 30px;
     letter-spacing: 2px;
     font-weight: 'bold';
 }
 
+.articlee {
+  color: black;
+  font-family: 'Poppins';
+}
+
 ul {
-  color:rgb(184, 188, 232);
+  color:rgb(0, 0, 0);
   list-style-type: none;
 }
 
 .articleheadline {
   font-size: 2.5em;
-  color: rgb(246, 236, 239);
+  color: rgb(15, 3, 24);
   font-family: 'Times New Roman';
   letter-spacing: 2px;
 }
 .articlesubheading {
   font-size: 2em;
-  color:rgb(24, 186, 205);
+  color:rgb(3, 22, 24);
   font-family: 'Poppins';
   font-weight: 'bold';
 }
@@ -105,6 +110,7 @@ h4 {
 
   div .article {
     text-indent: 50px;
+    color: black;
   }
 
   img {
@@ -125,6 +131,9 @@ h4 {
     grid-gap: 10px;
   }
   
+  .wrapper1 {
+    background-color: white;
+  }
   /* Navigation */
   .centernav {
     width: 100%;
@@ -210,12 +219,12 @@ h4 {
     box-shadow: var(--shadow);
   }
 
-  .showcasememe {
+  .showcasearticle {
     grid-area: showcase;
     min-height: 400px;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.112), rgba(0, 0, 0, .4), rgba(0, 0, 0, .9)), url("../images/orangeflower.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6), rgba(0, 0, 0, 0)), url("../images/boat.jpg");
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -306,6 +315,19 @@ h4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/waterfull.jpg");
   }
   
+  .info1 {
+    color: white;
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/blueedit.png");
+  }
+
  .articlesignupform {
   color: white;
   background: var(--primary);
@@ -351,6 +373,17 @@ h4 {
       text-align: center;
       margin: auto;
     }
+
+    .info1 {
+      grid-template-columns: 1fr;
+    }
+  
+    .info1 .btn {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+
   }
   
   @media (max-width: 500px) {
