@@ -109,10 +109,12 @@ h4 {
 
 
   a {
-    color:rgb(142, 161, 241);
-   
+    color:rgb(11, 159, 239);
   }
 
+  a:hover {
+    color:rgb(115, 190, 231);
+  }
   div .article {
     text-indent: 50px;
     color: black;
@@ -169,12 +171,13 @@ h4 {
 
   .main-nav a:hover {
     border-radius: 10px;
-    color: rgb(23, 39, 216);
+    color: rgb(23, 216, 187);
   }
 
   .btn:hover {
-      box-shadow:  0px 2px 11px 10px rgba(39, 167, 58, 0.779);
-      background-color:rgb(2, 27, 31);
+      box-shadow:  0px 2px 11px 10px rgba(23, 216, 187);
+      background-color:rgb(0, 5, 6);
+      color:  rgba(23, 216, 187);
   }
 
   .btnform:hover {
@@ -183,17 +186,18 @@ h4 {
 }
 .btnmain:hover {
   box-shadow:  0px 2px 11px 10px rgba(39, 167, 58, 0.779);
-  background-color:rgb(2, 27, 31);
+  background-color:rgb(0, 2, 2);
+  color:  rgba(23, 216, 187);
 }
   
   .main-nav a.active {
    color:rgb(255, 255, 255);
-   box-shadow:  0px 2px 11px 10px rgba(70, 52, 231, 0.779);
+   box-shadow:  0px 2px 11px 10px rgba(83, 14, 220, 0.993);
    border-radius: 10px;
   }
 
   .main-nav a.active:hover {
-    color:rgb(255, 255, 255);
+    color:  rgba(23, 216, 187);
     box-shadow:  0px 2px 11px 10px rgba(8, 230, 215, 0.779);
     border-radius: 10px;
    }
@@ -303,6 +307,8 @@ h4 {
     box-shadow: var(--shadow);
     color:rgb(142, 161, 241);
   }
+
+
   
   .forminput {
     margin: 10px;
@@ -348,6 +354,12 @@ h4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/blue.png");
 }
 
+.articleimg {
+  border: solid black 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
   
   /* Footer */
   footer {
@@ -415,7 +427,7 @@ h4 {
       top: 0;
     }
     .main-nav.responsive a:hover {
-      color: rgb(203, 209, 238);
+      color: rgb(23, 216, 187);
       background-color: black;
     }
     .main-nav.responsive a {
