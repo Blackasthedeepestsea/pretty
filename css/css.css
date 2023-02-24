@@ -41,6 +41,9 @@
 ul {
   color:rgb(0, 0, 0);
   list-style-type: none;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+
 }
 
 .articleheadline {
@@ -329,7 +332,7 @@ h4 {
     padding: 3rem;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.653), rgba(0, 0, 0, .4)), url("../images/blueedit.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .1)), url("../images/purplesta.jpg");
   }
 
  .articlesignupform {
