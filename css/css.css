@@ -41,8 +41,8 @@
 ul {
   color:rgb(0, 0, 0);
   list-style-type: none;
-  font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-family:'Bookman Old Style', Times, serif;
+  
 
 }
 
@@ -66,8 +66,9 @@ ul {
 h4 {
     color: black;
     font-size: 1.25em;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Bookman Old Style', Times, serif;
     letter-spacing: normal;
+    font-weight: normal;
 }
   .btn {
     display: inline-block;
